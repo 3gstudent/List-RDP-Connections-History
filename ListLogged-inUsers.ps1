@@ -23,15 +23,15 @@ foreach($User in $AllUser)
 	foreach($Name in $QueryPath)
 	{   
 		Try  
-    	{  
-    		$User = (Get-ItemProperty -Path $RegPath$Name -ErrorAction Stop).UsernameHint
-    		Write-Host "Server:"$Name
-    		Write-Host "User:"$User
-    	}
-    	Catch  
-    	{
+    		{  
+    			$User = (Get-ItemProperty -Path $RegPath$Name -ErrorAction Stop).UsernameHint
+    			Write-Host "Server:"$Name
+    			Write-Host "User:"$User
+    		}
+    		Catch  
+    		{
 			Write-Host "No RDP Connections History"
-    	}
+    		}
 	}
 	Write-Host "----------------------------------"	
 }

@@ -5,6 +5,7 @@ First use "reg load" to load hive.
 Then read the RDP Connections History from HKEY_USERS.
 Last you need to use "reg unload" to unload hive. 
 Author: 3gstudent@3gstudent
+License: BSD 3-Clause
 #>
 $AllUser = Get-WmiObject -Class Win32_UserAccount
 foreach($User in $AllUser)

@@ -11,7 +11,7 @@ foreach($User in $AllUser)
 	Write-Host "SID:"$User.SID
 	Write-Host "Status:"$User.Status
 	Try  
-    { 
+    	{ 
 		$QueryPath = dir $RegPath -Name -ErrorAction Stop
 	}
 	Catch

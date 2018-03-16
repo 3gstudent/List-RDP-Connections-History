@@ -1,6 +1,6 @@
 <#
 .SYNOPSIS
-This script will list all users's RDP Connections History.
+This script will list all users' RDP Connections History.
 First use "reg load" to load hive.
 Then read the RDP Connections History from HKEY_USERS.
 Last you need to use "reg unload" to unload hive. 

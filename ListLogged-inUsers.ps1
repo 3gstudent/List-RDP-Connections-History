@@ -1,6 +1,6 @@
 <#
 .SYNOPSIS
-This script will list the logged-in users's RDP Connections History.
+This script will list the logged-in users' RDP Connections History.
 Author: 3gstudent@3gstudent
 License: BSD 3-Clause
 #>

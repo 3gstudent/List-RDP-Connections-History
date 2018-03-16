@@ -8,7 +8,9 @@ Enumerating the registry key values of HKEY_USERS\"+$User.SID+"\Software\Microso
 ### List All Users's RDP Connections History:
 
 First use "reg load" to load hive.
+
 Then read the RDP Connections History from HKEY_USERS.
+
 Last you need to use "reg unload" to unload hive. 
 
 **Note:**

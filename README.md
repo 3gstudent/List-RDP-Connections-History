@@ -5,7 +5,7 @@ Use powershell to list the RDP Connections History of logged-in users or all use
 
 Enumerating the registry key values of HKEY_USERS\"+$User.SID+"\Software\Microsoft\Terminal Server Client\Servers\
 
-### List All Users's RDP Connections History
+### List All Users' RDP Connections History
 
 Realization ideas:
 
